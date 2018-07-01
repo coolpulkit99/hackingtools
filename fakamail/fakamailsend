@@ -1,0 +1,3 @@
+sendemail -f (email) -t (email) -u (subject mail) -m (message) 
+-s (mail.smtp2go.com:2525) -xu(app-smtp2go.com email(hanur@gmail.com)) -xp (sdsgfgAMMINGwwwwwwww)
+((((( https://app.smtp2go.com/settings/users/))))

